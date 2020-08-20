@@ -1,0 +1,95 @@
+@media screen {
+  .mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
+
+  html{
+      max-height: 100vh;
+      max-width: 100vw;
+    }
+
+  .header{
+  	padding-top: 4%;
+  	padding-left: 6%;
+  	padding-right: 6%;
+  	}
+
+  .container{
+  	padding-left: 6%;
+  	padding-right: 6%;
+  	padding-bottom: 2%;
+  }
+
+  .joul{
+    margin-top: 5%;
+  }
+  .joul img{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .joul2{
+    margin-top: -5%;
+  }
+  img{
+  		width: 100%;
+  	}
+
+  .url{
+    cursor: pointer;
+  }
+
+  h2{
+    font-family: "Poppins", sans-serif;
+  	font-size: 1.5rem;
+  	font-weight: 400;
+  	color: #404040;
+  	line-height: 2rem;
+    text-align: center;
+  }
+  h3{
+    font-family: "Poppins", sans-serif;
+  	font-size: 1.2rem;
+  	font-weight: 300;
+  	color: #404040;
+  	line-height: 2rem;
+    text-align: center;
+  }
+
+  h3:hover{
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile{
+		display: block;
+	}
+	.screen{
+		display: none;
+	}
+
+	.container{
+    max-width: 100vw;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+  .row{
+    max-width: 100vw;
+    padding-left: 5%;
+		padding-right: 5%;
+  }
+  .joul{
+    padding-top: 7%;
+  }
+  .joul2{
+    padding-top: 4%;
+  }
+  .joul3{
+    margin-top: 10%;
+  }
+
+
+}
